@@ -28,7 +28,7 @@ function App() {
   return (
    <>
     <Navbar title="Text Manipulator" style={isStyle} logo={isLogo} isChecked={isChecked} mode={mode} themeChange={themeChange} />
-    <TextArea title="Enter Text"  />
+    <TextArea title="Enter Text" style={isStyle}/>
    </>
   );
 }
